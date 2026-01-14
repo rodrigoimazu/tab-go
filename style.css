@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-size: clamp(1.75rem, 3.5vw, 3.5rem);
+    padding: 15px;
+}
+
+p, label {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    padding: 3px;
+}
+
+input {
+    padding: 0 10px;
+    font-size: clamp(0.875rem, 1.75vw, 1rem);
+}
+
+button {
+    padding: 5px 20px;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    margin: 10px 10px 0px 10px;
+    background: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+div.tabuada {
+    width: clamp(250px, 50vw, 350px);
+    margin: clamp(1rem, 2vw, 2rem) auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+}
+
+span {
+    font-variant: normal;
+    font-size: clamp(1.5rem, 3vw, 3rem);
+}
