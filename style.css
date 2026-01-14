@@ -7,8 +7,7 @@
 
 body {
     font-family: Arial;
-    min-width: 300px;
-    max-width: 500px;
+    width: clamp(300px, 100vw, 500px);
     margin: 0px auto;
     text-align: center;
 }
@@ -45,7 +44,7 @@ button:hover {
 }
 
 div.tabuada {
-    width: clamp(250px, 50vw, 350px);
+    width: clamp(225px, 75vw, 375px);
     margin: clamp(1rem, 2vw, 2rem) auto;
     padding: 20px;
     border: 1px solid #ddd;
