@@ -5,9 +5,13 @@
     padding: 0px;
 }
 
+html {
+    width: 100vw;
+}
+
 body {
     font-family: Arial;
-    width: clamp(300px, 100vw, 500px);
+    width: 100vw;
     margin: 0px auto;
     text-align: center;
 }
@@ -44,8 +48,8 @@ button:hover {
 }
 
 div.tabuada {
-    width: clamp(225px, 75vw, 375px);
-    margin: clamp(1rem, 2vw, 2rem) auto;
+    width: 90vw;
+    margin: 2vw auto;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -55,4 +59,14 @@ div.tabuada {
 span {
     font-variant: normal;
     font-size: clamp(1.5rem, 3vw, 3rem);
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 748px;
+    }
+
+    div.tabuada {
+        width: 673px;
+    }
 }
