@@ -37,7 +37,7 @@ func formHandler(w http.ResponseWriter, r *http.Request) {
 			<br>
 			<div>
                 <form action="/" method="GET">
-                    <button type="submit">Limpar</button>
+                    <button class="clear" type="submit">Limpar</button>
                 </form>
             </div>
         </div>`
