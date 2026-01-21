@@ -32,7 +32,7 @@ func formHandler(w http.ResponseWriter, r *http.Request) {
         num, _ := strconv.Atoi(numStr)
         htmlTabuada = `
         <div class="tabuada">
-            <h1>Tabuada do <span>` + numStr + `</span></h1>
+            <h2>Tabuada do <span>` + numStr + `</span></h2>
             ` + linhaTabuada(num) + `
 			<br>
 			<div>
